@@ -1,0 +1,24 @@
+#{people: {age: 18, name:xiaoming}, foods: [{age:1, name:xiaoming}, 2, [{age: 1, name: xiaohomg}, 5, 6]],
+# option: 18, command: 20, shift: {a:1, b:[1, 3, 5]}}
+people:
+  age: "18"
+  name: "xiaoming"
+foods:
+  -
+    age: "1"
+    name: "xiaoming"
+  - "2"
+  -
+    -
+      age: "1"
+      name: "xiaohong"
+    - "5"
+    - "6"
+option: "18"
+command: "20"
+shift:
+  a: "1"
+  b:
+  - "1"
+  - "3"
+  - "5"
